@@ -3,7 +3,7 @@ package com.example.madlevel2task2
 import androidx.recyclerview.widget.ItemTouchHelper
 
 data class Question (
-    val question: String,
+    val questionText: String,
     val answer: Int
 ){
     companion object {
